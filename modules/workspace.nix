@@ -469,6 +469,7 @@ in
                   }
                   if (image) {
                     desktop.writeConfig("Image", image);
+                    desktop.writeConfig("PreviewImage", image);
                   }
                   ${
                     lib.optionalString (cfg.workspace.wallpaperFillMode != null)
